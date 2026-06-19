@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="icone_app.png" alt="Ícone Day Off Tracker" width="100" height="100" style="border-radius: 20px;">
   <h1>Day Off Tracker</h1>
   
   <img src="ft.png" alt="Logo Completa" width="450">
@@ -12,8 +11,6 @@
 O **Day Off Tracker** é uma aplicação web intuitiva e responsiva projetada para ajudar no planejamento, gestão e acompanhamento de dias de folga e escalas de descanso. 
 
 Criado com uma interface minimalista e direta (estilo *glassmorphism*), o sistema funciona como um "toggle switch" visual para a sua rotina: quando o modo folga está ativado, é hora de desconectar!
-
-> 🚧 **Status do Projeto:** Em desenvolvimento inicial / Construção de interface e lógica base.
 
 ---
 
