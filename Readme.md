@@ -2,7 +2,7 @@
   <img src="icone_app.png" alt="Ícone Day Off Tracker" width="100" height="100" style="border-radius: 20px;">
   <h1>Day Off Tracker</h1>
   
-  <img src="logo.png.png" alt="Logo Completa" width="450">
+  <img src="ft.png" alt="Logo Completa" width="450">
 </div>
 
 ---
