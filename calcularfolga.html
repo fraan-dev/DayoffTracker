@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Day Off Tracker</title>
+    
+    <link rel="icon" type="image/png" href="icone_app.png">
+    
+    <link rel="stylesheet" href="calcularfolga.css">
+</head>
+<body>
+
+  <div class="container">
+    
+    <header class="header-logo">
+        <img src="logo.png.png" alt="Logo Day Off Tracker" class="logo-principal">
+        <h1>Day Off Tracker</h1>
+    </header>
+
+    <div class="conteudo">
+      <div class="esquerda">
+       <label for="dataInicial">Quando foi sua última folga?</label>
+        <input type="date" id="dataInicial">
+
+        <button onclick="salvarData()">Salvar e Calcular</button>
+
+        <h3>Próximas folgas no mês:</h3>
+        <ul id="resultado"></ul>
+      </div>
+
+      <div class="direita">
+        <h3>Calendário Mensal</h3>
+        <div id="calendar"></div>
+      </div>
+    </div>
+
+    <p class="assinatura">
+      Desenvolvido por <strong>Francislayne Nobre</strong>
+    </p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/locales/pt-br.global.min.js"></script>
+  <script src="calcularfolga.js"></script>
+
+</body>
+</html>
